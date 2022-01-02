@@ -8,9 +8,7 @@
 </div>
   
  <div style="display: inline_block"><br>
-  <img align="center" alt="Samuel-Java" height="50" width="60" src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg">
   <img align="center" alt="Samuel-Js" height="40" width="60" src = "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="Samuel-C" height="45" width="60" src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg">
   <img align="center" alt="Samuel-Bs" height="45" width="60" src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg">
    
 </div>
