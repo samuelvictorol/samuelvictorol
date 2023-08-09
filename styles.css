@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&family=Montserrat:wght@300&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{
+    position: relative;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    z-index: 999;
+    gap: 1.5rem;
+    background-color: #fff;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3a3a3a;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: all 0.2s linear;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav a:hover {
+    color: #4a0404fe;
+    padding-bottom: .8rem;
+    border-bottom: 5px solid #4a0404fe;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+
+#home {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(216, 216, 216, 0.596);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Jura', sans-serif;
+}
+
+#home h1 {
+    font-size: 12vw;
+    color: #4a0404fe;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#home h2 {
+    font-size: 4vw;
+    color: #3a3a3a;
+    font-weight: 700;
+    text-align: center;
+}
+
+.icons-home {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.icon-home{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    opacity: 0.8;
+    transition: all 0.2s linear;
+}
+
+.icon-home:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+*::selection {
+    background-color: rgb(195, 195, 195);
+}
+
+#sobre{
+    padding-top: 10vh;
+    position: relative;
+    min-height: 100vh;
+    width: 100vw;
+    background: #E8E8E8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #E8E8E8, #ffc5c5e1   , #770707);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #E8E8E8, #ffc5c5e1, #770707); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex; 
+    flex-direction: column;
+    font-family: 'Jura', sans-serif;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.row-1, .row-2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-direction: row;
+}
+
+.row-2{
+    border-top: 2px solid #fff;
+}
+
+#hero {
+    width: 400px;
+    width: 25%;
+    height: 420px;
+    /* border-top: 10px double #252525; */
+    border-bottom: 10px double #252525;
+    border-radius: 10%;
+    transform: scaleX(-1);
+}
+
+#sobre p {
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    width: 20rem;
+    width: 20%;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.bg-sobre {
+    position: relative;
+}
+
+#xp-title {
+    margin-top: 1rem;
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+}
+
+.xp-imgs-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.xp-img {
+    cursor: pointer;
+    border-bottom: 10px double #cacaca;
+    border-radius: 100%;
+    width: 280px;
+    height: 220px;
+    opacity: .6;
+    transition: all 0.2s linear;
+    object-fit: fill;
+}
+
+.xp-img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+#portfolio, #contato {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #6190E8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #A7BFE8, #790A0A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #A7BFE8, #790A0A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#contato {
+    background: #6190E8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #001334, #91aee1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #001334, #aec0df); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media (max-width: 600px) {
+    nav {
+        gap: 1rem;
+    }
+    nav a {
+        font-size: 1rem;
+    }
+    #home h2 {
+        font-size: 6vw;
+        color: #3a3a3a;
+        text-align: center;
+    }    
+    #sobre {
+        padding-top: 10vh;
+        padding-bottom: 5vh;
+        gap: 0rem
+    }
+    #sobre p {
+        padding: 10px;
+        border-radius: 4px;
+        font-size: 1.05rem;
+        width: 20rem;
+    }
+    #hero {
+        width: 150px;
+        height: 200px;
+    }
+    .text-left, .text-right {
+        text-align: center;
+    }
+
+}
