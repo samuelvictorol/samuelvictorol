@@ -4,5 +4,5 @@
 [![Gmail Badge](https://img.shields.io/badge/-samuel.softdev@outlook.com-986DFF?style=flat-square&logo=Gmail&logoColor=white&link=mailto:samuel.softdev@outlook.com)](mailto:samuel.softdev@outlook.com)
 
 
-[Portólio Pessoal](https://samuelvictorol.github.io/portfolio)
+[Visualizar Portólio](https://samuelvictorol.github.io/portfolio)
 
